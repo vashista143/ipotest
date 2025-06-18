@@ -240,7 +240,7 @@ app.post("/reset", async (req, res) => {
             return res.status(404).json({ success: false, message: "Email not found" });
         }
         
-        const resetLink = `${process.env.frontendUrl}/reset-password/${admin._id}`;
+        const resetLink = `${process.env.frontendurl}/reset-password/${admin._id}`;
         await sendEmail(email, "Reset Password", `Click on the link to reset your password: ${resetLink}`);
         return res.status(200).json({ success: true, message: "Reset password link sent successfully" });
 
