@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const SessionCheck = ({ setisloggedin, setusername, setmail, setLoading }) => {
   useEffect(() => {
-    fetch("http://localhost:3000/validate-session", {
+    fetch("https://ipotest-0f7u.onrender.com/validate-session", {
       credentials: "include",
     })
       .then((res) => {
