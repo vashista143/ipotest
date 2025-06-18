@@ -12,6 +12,7 @@ dotenv.config()
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 
 const app = express()
+app.set("trust proxy", 1);
 const port = 3000
 app.use(cors({
   origin: "https://ipotest.vercel.app",
