@@ -57,7 +57,7 @@ const Resetpassword = () => {
             />
           </div>
           {error && (
-            <div className="mb-2 text-sm text-red-600 font-medium">{error}</div>
+            <div className="mb-2 text-sm text-green-600 font-medium">{error}</div>
           )}
           <button
             type="submit"
