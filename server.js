@@ -14,7 +14,7 @@ import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 const app = express()
 const port = 3000
 app.use(cors({
-  origin: process.env.frontendUrl,
+  origin: "https://ipotest.vercel.app",
   credentials: true
 }));
 app.use(express.json())
