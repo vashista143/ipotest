@@ -55,7 +55,7 @@ try {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-white">
       <div className="w-full max-w-md p-6 rounded-md shadow-md">
-        <h1 className="flex justify-center text-2xl font-bold text-center mb-2 text-[#1D1C1D]"><img src='src/assets/logo.png' height={"36px"} width={"222px"} ></img></h1>
+        <h1 className="flex justify-center text-2xl font-bold text-center mb-2 text-[#1D1C1D]"><img src='/logo.png' height={"36px"} width={"222px"} ></img></h1>
         <h2 className="text-lg font-semibold text-center mb-2">Forgot Password?</h2>
         <p className="text-center text-gray-500 mb-6">
           Enter your email address to get the password reset link.
