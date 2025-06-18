@@ -1,6 +1,5 @@
 import { useNavigate, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import logo from '../assets/logo.png'
 const Resetpassword = () => {
   const navigate = useNavigate();
   const { id } = useParams();
@@ -28,7 +27,7 @@ const Resetpassword = () => {
     <div className="min-h-screen flex items-center justify-center bg-white">
       <div className="w-full max-w-md mx-auto p-8 bg-white rounded-lg shadow">
         <div className="flex flex-col items-center mb-6">
-          <img src={logo} alt="Bluestock Logo" className="h-8 mb-2" />
+          <img src="/logo.png" alt="Bluestock Logo" className="h-8 mb-2" />
           <h3 className="text-lg font-semibold text-gray-800 mt-2 mb-1">Reset Password</h3>
           <p className="text-sm text-gray-500 text-center mb-2">
             Enter your new password below to reset your account password.
