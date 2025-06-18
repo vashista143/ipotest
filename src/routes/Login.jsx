@@ -21,6 +21,7 @@ const Login = ({setisloggedin , setusername, setmail}) => {
 
     const response = await fetch(`${import.meta.env.VITE_backendurl}/loginadmin`, {
       method: "POST",
+      credentials: "include",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ ...data, token: captchaValue }),
       credentials: "include",
