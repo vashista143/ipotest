@@ -57,7 +57,7 @@ const Login = ({setisloggedin , setusername, setmail}) => {
       <div className="w-full max-w-md space-y-6 bg-white p-8 shadow-md rounded-lg">
         <div className="text-center mb-18">
           <img
-            src="src/assets/logo.png"
+            src="/logo.png"
             className="mx-auto h-10"
           />
           
