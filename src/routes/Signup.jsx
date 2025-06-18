@@ -40,7 +40,7 @@ const Signup = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4 py-5">
       <div className="w-full max-w-md space-y-6 bg-white p-8 shadow-md rounded-lg">
         <div className="text-center mb-4">
-          <div className='flex justify-center'><img src='src/assets/logo.png' className="h-[36px] w-[222px]"></img></div>
+          <div className='flex justify-center'><img src='/logo.png' className="h-[36px] w-[222px]"></img></div>
           <h2 className="mt-2 text-lg font-semibold">Create an account</h2>
         </div>
         <form onSubmit={handleSubmit(oncaptchaSubmit)} className="space-y-4">
